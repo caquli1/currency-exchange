@@ -1,6 +1,6 @@
 {
   "name": "exchange",
-  "homepage": "https://caquli1.github.io/CurrencyExchange",
+  "homepage": "https://caquli1.github.io/currency-exchange",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
