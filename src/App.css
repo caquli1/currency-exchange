@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'font';
+  src: url(./SF-Pro-Display-Bold.otf);
+}
+body{
+  background-color: rgb(48, 48, 48);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: 50px auto 0;
+  padding: 20px 15px;
+}
+
+.App .input-field, .App .currency-select {
+  width: 100%; /* или конкретное значение, например, 250px */
+}
+
+.MuiTextField-root {
+  width: 100%; /* Установить ширину текстового поля */
+}
+
+.MuiFormControl-root {
+  width: 100%; /* Установить ширину выпадающего списка */
+}
